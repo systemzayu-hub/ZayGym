@@ -25,7 +25,7 @@ jobs:
           curl --fail --location --retry 2 -o source.zip https://github.com/systemzayu-hub/ZayGym/releases/download/android-teste-2026-10-14/ZayGym-source-2026-10-14.zip
           echo "604cdbcf2c5b4d144549632422b6901014cac6f8f195aa9ea80236266ee7f7df  source.zip" | sha256sum --check
           unzip -q source.zip
-          curl --fail --location --retry 2 -o original.apk https://systemzayu-hub.github.io/ZayGym/ZayGym.apk
+          curl --fail --location --retry 2 -o original.apk https://github.com/systemzayu-hub/ZayGym/releases/download/android-teste-2026-10-14/ZayGym-android-debug.apk
           echo "c4a80d0573d5af22e60658a297d183668b09b5eae07ceb530950e829ed206277  original.apk" | sha256sum --check
       - name: Build the existing application
         working-directory: ZayGym/frontend
