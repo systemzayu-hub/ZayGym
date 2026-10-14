@@ -1,0 +1,27 @@
+{
+  "name": "ZayGym",
+  "short_name": "ZayGym",
+  "description": "Treinos pessoais, planos e progresso. Dados salvos neste dispositivo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050B14",
+  "theme_color": "#050B14",
+  "icons": [
+    {
+      "src": "zaygym/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "zaygym/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "id": "./",
+  "lang": "pt-BR"
+}

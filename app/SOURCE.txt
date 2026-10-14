@@ -1,0 +1,3 @@
+Corresponding source (AGPL-3.0):
+https://github.com/systemzayu-hub/ZayGym/releases/download/android-teste-2026-10-14/ZayGym-source-2026-10-14.zip
+Deployment manifest and cache isolation: https://github.com/systemzayu-hub/ZayGym/commits/main/
