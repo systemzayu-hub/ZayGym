@@ -17,6 +17,9 @@ jobs:
           distribution: temurin
           java-version: '21'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools platforms;android-35 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: false
       - name: Fetch corresponding public source
         run: |
           curl --fail --location --retry 2 -o source.zip https://github.com/systemzayu-hub/ZayGym/releases/download/android-teste-2026-10-14/ZayGym-source-2026-10-14.zip
