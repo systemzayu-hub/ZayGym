@@ -1,0 +1,17 @@
+{
+  "packageId": "com.zaygym.app",
+  "versionName": "1.4.1",
+  "versionCode": 26,
+  "variant": "release",
+  "sha256": "bdcf5a6446c19b2a2ac137c7bb911b6ee67aa430b8adcd99da09bd7e82502aae",
+  "bytes": 22301157,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "ciRunUrl": "https://github.com/systemzayu-hub/ZayGym/actions/runs/38646082632",
+  "installedAndLaunchedOnEmulator": true,
+  "androidApi": 35,
+  "physicalDeviceVerified": false,
+  "screenEvidence": "android-installation.png"
+}

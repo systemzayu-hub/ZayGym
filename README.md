@@ -1,6 +1,6 @@
 # ZayGym para Android
 
-[Baixar o APK de teste diretamente](https://systemzayu-hub.github.io/ZayGym/ZayGym.apk) — sem login.
+[Baixar o APK de teste diretamente](https://systemzayu-hub.github.io/ZayGym/ZayGym-instalar.apk) — sem login.
 
 Versão de teste, ainda sem validação em aparelho físico. Não há instalador para iPhone.
 
