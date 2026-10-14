@@ -41,6 +41,7 @@ jobs:
           sdkmanager "build-tools;35.0.0" > /dev/null
           "$ANDROID_HOME/build-tools/35.0.0/zipalign" -P 16 -f 4 ZayGym/frontend/android/app/build/outputs/apk/release/app-release-unsigned.apk "$RUNNER_TEMP/aligned.apk"
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" sign --ks "$RUNNER_TEMP/zaygym.jks" --ks-pass pass:android --key-pass pass:android --out ZayGym-instalar.apk "$RUNNER_TEMP/aligned.apk"
+          rm "$RUNNER_TEMP/zaygym.jks"
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose ZayGym-instalar.apk
           "$ANDROID_HOME/build-tools/35.0.0/aapt2" dump badging ZayGym-instalar.apk | head -3
           sha256sum ZayGym-instalar.apk > SHA256SUMS-instalar.txt
